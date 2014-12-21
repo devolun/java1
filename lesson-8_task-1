@@ -1,0 +1,16 @@
+public class MinFour {
+	public static void main(String[] args) {
+		int a = 6;
+		int b = 17;
+		int c = 5;
+		int d = 38;
+		
+		System.out.println("Наименьшее значение: " + minValue(a, b, c, d));
+	}
+	
+	public static int minValue(int a, int b, int c, int d) {
+		return Math.min(Math.min(a, b), Math.min(c, d));
+	}
+	
+
+}
