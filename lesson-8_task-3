@@ -1,0 +1,23 @@
+// Даны 5 чисел (тип int). Вывести вначале наименьшее, а затем наибольшее из данных чисел.
+
+public class MinAndMax {
+	public static void main(String[] args) {
+		int a = 6;
+		int b = 17;
+		int c = 5;
+		int d = 38;
+		
+		System.out.println("Наименьшее значение: " + minValue(a, b, c, d));
+		System.out.println("Наибольшее значение " + maxValue(a, b, c, d));
+
+	}
+	
+	public static int minValue(int a, int b, int c, int d) {
+		return Math.min(Math.min(a, b), Math.min(c, d));
+	}
+	
+	public static int maxValue(int a, int b, int c, int d) {
+		return Math.max(Math.max(a, b), Math.max(c, d));
+	}
+
+}
