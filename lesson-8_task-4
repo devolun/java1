@@ -1,0 +1,15 @@
+// Даны имена 2х человек (тип String). Если имена равны, то вывести сообщение о том, что люди являются тезками.
+
+public class Tezki {
+
+	public static void main(String[] args) {
+		String name1 = "Петя";
+		String name2 = "Петя";
+
+		if (name1.equals(name2)) {
+			System.out.println("Люди являются тезками");
+		}
+
+	}
+
+}
