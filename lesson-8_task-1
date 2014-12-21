@@ -6,10 +6,23 @@ public class MinFour {
 		int d = 38;
 		
 		System.out.println("Наименьшее значение: " + minValue(a, b, c, d));
+	
+	// or so	System.out.println(min(min(a, b), min(c, d)));
 	}
 	
 	public static int minValue(int a, int b, int c, int d) {
 		return Math.min(Math.min(a, b), Math.min(c, d));
 	}
+	
+/**	 or so
+	public static int min(int x, int y) {
+*		if(x < y) {
+*			return x;
+*		} else {
+*			return y;
+*		}
+*/		}
+	
+	
 
 }
