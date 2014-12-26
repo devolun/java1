@@ -18,6 +18,14 @@ public class Factorial {
 	for (int i = 1; i <= n; i++) {
 		fact *= i;
 	}
+	
+	// При помощи while
+/*	int i = 1;
+*	while (i <= n) {
+*		i++;
+*		fact *= i;
+*/	}
+	
 	return fact;
 	}
 }
