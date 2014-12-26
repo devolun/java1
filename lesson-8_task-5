@@ -16,7 +16,7 @@ public class Month {
 		}
 		
 		// switch
-		String monthName;
+/*		String monthName;
 		switch (month) {
 		case 1: monthName = "Зима";
 				break;
@@ -44,7 +44,7 @@ public class Month {
 				break;
 		default: monthName = "Error";
 		}
-		System.out.println(monthName);
+*/		System.out.println(monthName);
 
 	}
 
