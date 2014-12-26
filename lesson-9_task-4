@@ -1,0 +1,12 @@
+// Даны переменные x и n вычислить x^n.
+
+public class Stepen {
+
+	public static void main(String[] args) {
+		int x = 5;
+		int n = 7;
+		System.out.println(Math.pow(x, n));
+
+	}
+
+}
